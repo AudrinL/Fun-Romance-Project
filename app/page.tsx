@@ -14,9 +14,9 @@ const QUESTIONS = [
 const QUESTION_YES_TEXTS = [
   "Fine… Yes 🙄",
   "Okay okay, Yes 😒",
-  "You win… Yes 😌",
-  "Whatever, Yes 😪",
-  "Ugh, fine. Yes 🙃",
+  "Yes Again😌",
+  "Yes Cyanee🙃",
+  " Yes Master🙃",
 ]
 
 const NO_RESPONSES = [
