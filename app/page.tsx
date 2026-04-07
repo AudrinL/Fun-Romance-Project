@@ -694,7 +694,7 @@ function Page5({ onHome }: { onHome: () => void }) {
 
   <p>
     <span className="font-semibold">Lately…</span> you’ve gone a little cold on me. And yeah, I noticed. I’m not blind like that.{" "}
-    <span className="text-pink-500 font-semibold">It’s okay though.</span>{" "}
+    <span className="text-pink-500 font-semibold">It’s okay tho.</span>{" "}
     I’m not here to pressure you into anything. I’ll wait for you here,{" "}
     <span className="font-bold text-pink-600">inside my heart</span>.
   </p>
