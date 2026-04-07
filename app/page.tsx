@@ -28,16 +28,38 @@ const NO_RESPONSES = [
 ]
 
 const TERMS = [
-  "You are required to communicate like a normal human being, not a disappearing ninja.",
-  "Silent treatment is now officially outlawed.",
-  "Random mood swings must come with at least a short explanation.",
-  "You agree to stop overthinking things that are not even thinking about you.",
-  "You accept that I am on your team, not your opponent.",
-  "You will allow yourself to be cared for without acting like it's suspicious activity.",
-  "You agree that building a future together requires both of us.",
-  "You will reduce unnecessary stress in this relationship by at least 70%.",
-  "You acknowledge that I actually like you… a lot.",
-  "Running away emotionally is cancelled.",
+  <>You are required to communicate like a normal human being, not aka ninja kaburira mumyotsi rimwe na rimwe.</>,
+
+  <>Silent treatment is outlawed. forever</>,
+
+  <>
+    Random mood swings must come with ka{" "}
+    <span className="text-pink-500 font-bold text-lg">
+      little explanation.
+    </span>
+  </>,
+
+  <>You agree to stop overthinking things that are not even thinking about you.</>,
+
+  <>You accept that I am on your team, not your opponent.</>,
+
+  <>
+    You will allow yourself to be cared for, ukarekera kwigira{" "}
+    <span className="font-bold">
+      Cleoparta
+    </span>
+  </>,
+
+  <>You agree that building a future together requires both of us.</>,
+
+  <>You will reduce unnecessary stress with me by at least <span className="font-bold"> 70%.</span></>,
+
+  <>
+    You acknowledge that I actually like you.{" "}
+    <span className="text-pink-500 font-bold text-2xl">
+      A LOTT.
+    </span>
+  </>,
 ]
 
 // Typewriter text reveal component
@@ -455,7 +477,7 @@ function Page3({
         Relationship Terms & Conditions v2.0
       </h1>
 
-      <div className="bg-white/80 backdrop-blur rounded-2xl p-8 space-y-4 shadow-xl max-h-64 overflow-y-auto">
+      <div className="bg-white/80 backdrop-blur rounded-2xl p-8 space-y-4 shadow-xl max-h-120 overflow-y-auto">
         {TERMS.map((term, i) => (
           <motion.div
             key={i}
@@ -626,7 +648,7 @@ function Page5({ onHome }: { onHome: () => void }) {
   return (
     <motion.div className="text-center space-y-8">
       <motion.div
-        className="bg-white/90 backdrop-blur rounded-3xl p-12 shadow-2xl space-y-8 relative overflow-hidden border-2 border-pink-200"
+  className="bg-white/90 backdrop-blur rounded-3xl p-12 shadow-2xl space-y-8 relative overflow-hidden border-2 border-pink-200 w-full mx-auto"
         animate={{
           boxShadow: [
             '0 0 20px rgba(236, 72, 153, 0.2)',
@@ -656,18 +678,85 @@ function Page5({ onHome }: { onHome: () => void }) {
         ))}
 
         <div className="space-y-6 text-lg text-gray-800 leading-relaxed">
-          <p className="text-2xl font-bold text-pink-600">Okay jokes aside for a second Aimee.</p>
-          <p>I made this to make you smile, but also say something real.</p>
-          <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-red-600">
-            I like you. I care about you. I&apos;m trying to build something real with you.
-          </p>
-          <p>But sometimes the way you act pushes me away, even when I&apos;m trying to come closer.</p>
-          <p>You don&apos;t have to handle everything alone. <span className="font-bold">I&apos;m right here.</span></p>
-          <p><span className="font-bold">You can trust me.</span></p>
-          <p>Just don&apos;t make it hard for me to stay close when all I&apos;m trying to do is build something good with you.</p>
-          <p className="text-lg italic">Also… please stop acting like that 😌</p>
-          <p className="text-lg italic">I&apos;m planning a future here, not auditioning for confusion season 5.</p>
-        </div>
+
+  <p className="text-2xl font-bold text-pink-600">
+    Okay… jokes aside for a second.
+  </p>
+
+  <p>
+    I made this whole thing to make you laugh… but also because clearly saying things normally isn’t as effective as building an entire app just for fun and, of course,{" "}
+    <span className="font-semibold text-pink-500">you</span>.
+  </p>
+
+  <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-red-600 text-xl">
+    I like you. I care about you. That part hasn’t changed.
+  </p>
+
+  <p>
+    <span className="font-semibold">Lately…</span> you’ve gone a little cold on me. And yeah, I noticed. I’m not blind like that.{" "}
+    <span className="text-pink-500 font-semibold">It’s okay though.</span>{" "}
+    I’m not here to pressure you into anything. I’ll wait for you here,{" "}
+    <span className="font-bold text-pink-600">inside my heart</span>.
+  </p>
+
+  <p>
+    I also know that I’ve been clingy lately, and trust me,{" "}
+    <span className="font-semibold">nobody is more surprised than me</span>. I blame you entirely cuz{" "}
+    <span className="italic">Uyu ntago aringewe</span>. What did you do to me, you sneaky little 😂 eeh?
+    <br />
+    But what do you want me to do? Show mood swings and occasionally act weird too?{" "}
+    <span className="font-bold text-pink-500">That’s your department, Miss MUKANKIKO.</span>
+  </p>
+
+  <p className="font-semibold">
+    Truth is… I don’t move like that.
+  </p>
+
+  <p>
+    I’m an{" "}
+    <span className="font-bold text-pink-600">ambitious man</span>. I value{" "}
+    <span className="font-semibold">peace</span>,{" "}
+    <span className="font-semibold">stability</span>, and{" "}
+    <span className="font-semibold">something that actually makes sense</span>.
+  </p>
+
+  <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-red-600">
+    I’m not trying to build confusion with you. I’m trying to build a future.
+  </p>
+
+  <p>
+    One day,{" "}
+    <span className="text-pink-600 font-bold text-xl">I’ll give you the world</span>.  
+    You just need to be a little{" "}
+    <span className="font-semibold">patient</span> with me… and maybe{" "}
+    <span className="font-semibold">adjust a little too</span>.
+  </p>
+
+  <p>
+    You don’t have to handle everything alone.{" "}
+    <span className="font-bold text-pink-500">I’m right here.</span>{" "}
+    You can{" "}
+    <span className="font-bold">trust me</span>.
+  </p>
+
+  <p>
+    Just don’t make it hard for me to stay close when all I’m trying to do is build something good with you.  
+    And please…{" "}
+    <span className="text-red-500 font-bold text-xl">
+      don’t ever make my patience drop to 0%
+    </span>{" "}
+    😌
+  </p>
+
+  <p className="text-lg italic">
+    Also… I miss you. <span className="font-semibold">aaand love you 😌</span>
+  </p>
+
+  <p className="text-base italic">
+    But hey, wibeshye u boosting your ego too much. wakana we, now call me and tell me how you feel vuba.
+  </p>
+
+</div>
       </motion.div>
 
       <motion.button
