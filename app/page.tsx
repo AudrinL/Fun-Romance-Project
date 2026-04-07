@@ -702,7 +702,7 @@ function Page5({ onHome }: { onHome: () => void }) {
   <p>
     I also know that I’ve been clingy lately, and trust me,{" "}
     <span className="font-semibold">nobody is more surprised than me</span>. I blame you entirely cuz{" "}
-    <span className="italic">Uyu ntago aringewe</span>. What did you do to me, you sneaky little 😂 eeh?
+    <span className="italic">Uyu ntago aringewe</span>. What did you do to me, eeh? you sneaky little...😂 
     <br />
     But what do you want me to do? Show mood swings and occasionally act weird too?{" "}
     <span className="font-bold text-pink-500">That’s your department, Miss MUKANKIKO.</span>
