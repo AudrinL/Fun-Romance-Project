@@ -753,7 +753,7 @@ function Page5({ onHome }: { onHome: () => void }) {
   </p>
 
   <p className="text-base italic">
-    But hey, wibeshye u boosting your ego too much. wakana we, now call me and tell me how you feel vuba.
+    But hey, wibeshye u boosting your ego too much. now call me and tell me how you feel vuba. WAKANA WE
   </p>
 
 </div>
