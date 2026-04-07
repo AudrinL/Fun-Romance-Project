@@ -9,8 +9,8 @@ const _pacifico = Pacifico({ weight: '400', subsets: ["latin"], variable: '--fon
 const _dancingScript = Dancing_Script({ subsets: ["latin"], variable: '--font-dancing-script' });
 
 export const metadata: Metadata = {
-  title: 'Romantic Interactive App',
-  description: 'A playful, romantic, slightly sarcastic interactive experience',
+  title: 'Mukashyaka funny App',
+  description: 'A playful, Yes or No App',
   generator: 'v0.app',
   icons: {
     icon: [
