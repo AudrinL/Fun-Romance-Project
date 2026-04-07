@@ -749,7 +749,7 @@ function Page5({ onHome }: { onHome: () => void }) {
   </p>
 
   <p className="text-lg italic">
-    Also… I miss you. <span className="font-semibold">aaand love you 😌</span>
+    Also… I miss you. <span className="font-semibold">aaand I love you 😌</span>
   </p>
 
   <p className="text-base italic">
