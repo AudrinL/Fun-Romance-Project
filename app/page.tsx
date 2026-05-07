@@ -532,7 +532,7 @@ function Page3({
                 className="mt-8 max-w-xs bg-white text-black px-6 py-4 rounded-2xl font-bold text-sm text-center shadow-lg border-4 border-black"
               >
                 <TypewriterText
-                  text={`"I, the Mighty MUKASHYAKA NKIKO BIHANGA aka Tooth Portal, shall honor these Terms & Conditions… mostly seriously 😜✨"`}
+                  text={`"I, the Mighty MUKASHYAKA BIHANGA aka Tooth Portal, shall honor these Terms & Conditions… mostly seriously 😜✨"`}
                   delay={0.4}
                 />
               </motion.div>
