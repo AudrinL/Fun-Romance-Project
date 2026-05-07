@@ -733,7 +733,7 @@ function Page5({ onHome }: { onHome: () => void }) {
   </p>
 
   <p>
-    You don’t have to handle everything alone.{" "}
+    You don’t have to handle everything alone. You got me.{" "}
     <span className="font-bold text-pink-500">I’m right here.</span>{" "}
     You can{" "}
     <span className="font-bold">trust me</span>.
